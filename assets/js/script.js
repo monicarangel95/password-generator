@@ -45,13 +45,22 @@ let lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"
 let specialChar = ["\"","!","#","$","%","&","\'","(",")","*","+","-",".","/",":",";","<","=",">","?","@","[","]","^","`","{","|","}","~"];
 var num = ["0","1","2","3","4","5","6","7","8","9"];
 
-// uppercase inserted
+// uppercase inserted and chosen
 if (upper) {
   for(var i = 0; i < upperCase. length; i++ ){
     inserted.chosen(upperCase[i]);
-    
+
   }
 }
+// lowercase inserted and chosen
+if(lower){
+  for(var j=0; j < lowerCase.length; j++){
+    chosen.push(lowerCase[j]);
+  }
+
+
+
+
 
 }
 
