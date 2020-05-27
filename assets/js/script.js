@@ -39,7 +39,19 @@ while ((passLength < 8) || (passLength > 128)){
   alert("Please choose between 8-128.");
   passLength = prompt("How long would you like your password?");
 } 
+// array for pass criteria
+let upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+let lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+let specialChar = ["\"","!","#","$","%","&","\'","(",")","*","+","-",".","/",":",";","<","=",">","?","@","[","]","^","`","{","|","}","~"];
+var num = ["0","1","2","3","4","5","6","7","8","9"];
 
+// uppercase inserted
+if (upper) {
+  for(var i = 0; i < upperCase. length; i++ ){
+    inserted.chosen(upperCase[i]);
+    
+  }
+}
 
 }
 
