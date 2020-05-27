@@ -55,7 +55,7 @@ if (upper) {
 // lowercase inserted and chosen
 if(lower){
   for(var j=0; j < lowerCase.length; j++){
-    chosen.push(lowerCase[j]);
+    inserted.chosen(lowerCase[j]);
   }
 
 
