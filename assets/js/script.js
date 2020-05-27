@@ -25,7 +25,7 @@ var special = confirm("Insert special characters?");
 var number = confirm("Insert numbers?");
 
 // validating input
-while((upper === false) && (lower === false) && (special === false) && (number === false)) {
+while((upper===false) && (lower===false) && (special===false) && (number===false)) {
 alert ("Choose a specification:");
 var upper = confirm("Insert uppercase letters?");
 var lower = confirm("Insert lowercase letters?");
@@ -35,7 +35,7 @@ var number = confirm("Insert numbers?");
 
 // password length 
 var userLength = prompt ("How long would you like your password? Please choose between 8-128.");
-while ((useerLength < 8) || (passLength > 128)){
+while ((userLength < 8) || (userLength > 128)){
   alert("Please choose between 8-128.");
   userLength = prompt("How long would you like your password?");
 } 
@@ -47,7 +47,7 @@ var num = ["0","1","2","3","4","5","6","7","8","9"];
 
 // uppercase inserted and chosen
 if (upper) {
-  for(var i = 0; i < upperCase. length; i++ ){
+  for(var i = 0; i < upperCase.length; i++ ){
     chosen.push(upperCase[i]);
 
   }
@@ -77,7 +77,7 @@ for(m=0; m < userLength; m++){
   finalResult.push(chosen[Math.floor(Math.random()*chosen.length)]);
 }
 
-// return finalResult with randomized chars as long as userLength joining array into strings
+// return finalResult
 return(finalResult.join(""));
 
 }
